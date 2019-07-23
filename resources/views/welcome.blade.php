@@ -66,7 +66,7 @@
                 <h4>Provides full services of Korea Immigration and VISA
                 taks assiting our clients around the world
                 with their Korea Immigration Needs</h4>
-                <button type="button" class="btn btn-outline-dark btn-lg"><b>READ MORE</b></button>
+                <a type="button" style="margin-top:5%" href="#"><img src="img/icon/button.jpg"></a>
             </div>
             <div class="carousel-item active">
                 <img src="img/bg/bg1.png" alt="bg1">
@@ -131,6 +131,38 @@
             </div>
         </div>
     </div>
+</div>
+
+<!-- page 3 -->
+<div id="page3">
+    <div class="stage1">
+        <div class="stage2">
+            <div class="stage2item1">
+                <div style="margin-left:20%">
+                    <h5 style="color:white;margin-top:20%">TYPE VISA IN KOREA</h5>
+                    <hr align="left" style="border: none;height: 1.5px;width: 30%;color: white;background-color: white;">
+                    <div style="max-width:70%">
+                        <p style="color:white;">Lorem ipsum dolor sit amet, salutatus expetendis usu no, eos amet ubique facilis te. Ex eos alii quas iuvaret, mutat dissentiunt mel no</p>
+                    </div>
+                    <button type="button" class="btnedit btn-dangeredit">VIEW MORE</button>
+                </div>
+            </div>
+            <div class="stage2item2">
+                <div class="imgkonten">
+                    <img class="imgitem1" src="img/icon/img1.jpg">
+                    <img class="imgitem2" src="img/icon/img2.jpg">
+                    <img class="imgitem3" src="img/icon/img3.jpg">
+                    <img class="imgitem1" src="img/icon/img4.jpg">
+                    <img class="imgitem2" src="img/icon/img5.jpg">
+                    <img class="imgitem3" src="img/icon/img6.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="divkonten">
+        <hr class="divitem1" align="right"><center><h4 style="color:#909090" class="divitem2">LASTED FROM BLOG</h4></center><hr class="divitem3" align="left">
+    </div>
+    <center><p style="color:#909090">Lorem ipsum dolor sit amet, salutatus expetendis usu no, eos amet ubique facilis te.</p></center>
 </div>
 @endsection
 
