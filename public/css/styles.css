@@ -1,0 +1,164 @@
+body{
+    background-color: #ffffff;
+    font-size:11pt;
+}
+
+#topcon p{
+    color:grey;
+    margin-top: 40px;
+}
+
+#topcon .container-fluid{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#topcon #logo{
+    top:15;
+}
+
+#topcon #phone img,
+#topcon #mail img{
+    height: 11px;
+    width: auto;
+    margin-right: 10px;
+}
+
+#topcon #phone,
+#topcon #mail{
+    margin-right: 0;
+    text-align: right;
+}
+
+#topcon #contact{
+    margin-top:35px;
+    max-width: 150;
+    padding-right: 0;
+    text-align: right;
+}
+
+#topcon #contact a{
+    padding-left: 5px;
+}
+
+#topcon #logotext p{
+    border-left: 2px solid #f0f0f0;
+    padding-left: 10px;
+}
+
+#nav li{
+    padding:0px 25px;
+    line-height: 1px;
+}
+
+#nav li#navl.nav-item{
+    border-right: 3px solid #f0f0f0;
+    line-height: 1px;
+}
+
+#nav li#navr.nav-item{
+    border-left: 3px solid #f0f0f0;
+    line-height: 1px;
+}
+
+.collapse.navbar-collapse{
+    padding-top: 10px;
+    border-top: 3px solid #f0f0f0;
+}
+
+#nav{
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+.carousel-control-next-icon{
+    background-image: url("../img/icon/nbutton.png");
+    width: 20px;
+    height: 40px;
+}
+
+.carousel-control-prev-icon{
+    background-image: url("../img/icon/pbutton.png");
+    width: 20px;
+    height: 40px;
+}
+
+.carousel-control-next, 
+.carousel-control-prev{
+    width:5%;
+}
+
+.carousel-indicators li{
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    opacity: 1;
+}
+
+.carousel-indicators .active{
+    opacity: 1;
+    background-color: black;
+}
+
+#showup{
+    padding: 0px 0px;
+}
+
+#showup .carousel-inner{
+    max-height: 522px;
+}
+
+#showtext{
+    text-align: right;
+    left: 45%;
+    top: 25%;
+    bottom:25%;
+}
+
+#page2{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#page2 h3{
+    margin-bottom: 20px;
+    font-weight: 501;
+}
+
+#page2 #texttop{
+    color: grey;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+#page2 .card{
+    background-color: #f0f0f0;
+    border-radius: 0%;
+    border-color: transparent;
+    width: 18rem;
+    padding-bottom: 0.5rem;
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.2);
+}
+
+#page2 img{
+    margin-bottom: 20px;
+}
+
+#page2 .col{
+    max-width: 18rem;
+    margin-right: 40px;
+    margin-left: 40px;
+    padding-bottom: 1rem;
+}
+
+#page2 .row p{
+    font-size: 10pt;
+    color: grey;
+    margin-bottom: 2rem;
+}
+
+#page2 .row a{
+    font-size: 11pt;
+    color: black;
+}
