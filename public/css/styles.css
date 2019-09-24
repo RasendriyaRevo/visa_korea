@@ -15,6 +15,17 @@ version 3.0 (http://www.gnu.org/licenses/gpl-3.0.html)
 ==================================================
 */
 
+/* Export Font */
+@font-face{
+    font-family: "PNovareg";
+    src: url("../font/ProximaNova-Regular.otf");
+}
+
+@font-face{
+    font-family: "PNovasbold";
+    src: url("../font/Proxima Nova-Sbold.otf");
+}
+
 /* 1.0 Browser Reset
 ================================================== */
 html {
@@ -1066,7 +1077,7 @@ img#wpstats {
 	  	-moz-box-shadow:    0 1px 2px rgba(0, 0, 0, 0.15);  /* Firefox 3.5 - 3.6 */
   	box-shadow:         0 1px 2px rgba(0, 0, 0, 0.15);  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
   	width: 100%;
-  	z-index: 999;
+	z-index: 999;  
 }
 
 /* ----- for inline css ----- */
@@ -3538,9 +3549,11 @@ ul.next-prev li.active, ul.next-prev li:hover {
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
-	background-size: cover;
     padding: 12% 10% 12%;
-    min-height: 400px;
+	min-height: 400px;
+	background-image: url('img/bg/bg1.png');
+	background-size: contain;
+	background-repeat: no-repeat;
 }
 .slider-content {
 	margin: 0px 20px 0px 0px;

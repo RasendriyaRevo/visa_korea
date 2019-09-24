@@ -1,0 +1,51 @@
+#contacttitle h1{
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    padding-left: 3%;
+    font-family: "PNovareg";
+    color: #909090;
+    font-size: 19pt;
+}
+
+#contacttitle{
+    margin-bottom: 7%;
+    border-radius: 0%;
+}
+
+#text-4 p{
+    font-family: "PNovareg";
+    color: black;
+    font-size: 18pt;
+}
+
+#buttonsubmit{
+    font-weight: 600;
+    background-color: transparent;
+    color: #909090;
+}
+
+#ffirstname, #flastname{
+    width: auto;
+}
+
+#ffirstname, #flastname,
+#femail, #fmessage{
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 2px;
+    margin-top: 15px;
+}
+
+#info{
+    width: 15px;
+    vertical-align: middle;
+}
+
+#talk{
+    width: 25px;
+    vertical-align: middle;
+}
+
+#listinfo li {
+    margin-left: 0px;
+    padding-right: 100px;
+}
