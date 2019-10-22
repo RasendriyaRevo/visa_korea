@@ -1,9 +1,14 @@
+body.pg-contact *{
+    font-family: "PNovareg";
+}
+
 #contacttitle h1{
     padding-top: 1.5%;
     padding-bottom: 1.5%;
     padding-left: 3%;
     font-family: "PNovareg";
     color: #909090;
+    background-color: rgb(240, 240, 240);
     font-size: 19pt;
 }
 
@@ -12,7 +17,7 @@
     border-radius: 0%;
 }
 
-#text-4 p{
+#text-4 label{
     font-family: "PNovareg";
     color: black;
     font-size: 18pt;
@@ -20,32 +25,33 @@
 
 #buttonsubmit{
     font-weight: 600;
-    background-color: transparent;
+    background-color: rgb(240, 240, 240);
     color: #909090;
+    border-radius: 2px;
+    border-color: transparent;
+    padding: .75rem 2rem;
 }
 
-#ffirstname, #flastname{
-    width: auto;
-}
-
-#ffirstname, #flastname,
-#femail, #fmessage{
+#bordercustom{
     border: 1px solid rgb(0, 0, 0);
     border-radius: 2px;
     margin-top: 15px;
+    background-color: #fff;
 }
 
-#info{
-    width: 15px;
-    vertical-align: middle;
+#listinfo img{
+    width: 100%;
+    height: 100%;
+    max-width: 25px;
+    max-height: 25px;
 }
 
-#talk{
-    width: 25px;
-    vertical-align: middle;
-}
-
-#listinfo li {
-    margin-left: 0px;
-    padding-right: 100px;
+#hrsec{
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 0;
+    height: 10px;
+    width: 75px;
+    margin-right: auto;
+    margin-top: 0;
+    margin-left: 0;
 }

@@ -211,7 +211,7 @@
 							<a href="#livinginkorea">LIVING IN KOREA</a>
 						</li>
 						<li id="menu-item-190" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-190">
-							<a href="#contactus">CONTACT US</a>
+							<a href="contactus">CONTACT US</a>
 						</li>
 					</ul>			
 				</nav> 
