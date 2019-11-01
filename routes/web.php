@@ -23,3 +23,7 @@ Route::get('/aboutus', function () {
 Route::get('/contactus', function () {
     return view('contactus');
 });
+
+Route::get('/lik', function () {
+    return view('living');
+});

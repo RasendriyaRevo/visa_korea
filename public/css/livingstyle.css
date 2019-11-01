@@ -1,0 +1,20 @@
+.headnav {
+    background-color: #f0f0f0;
+    margin-left: 0px;
+}
+
+.headnav-content{
+    margin-left: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.post-content{
+    display: block;
+    margin: 0px 0px 20px;
+}
+
+.category-content button{
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
