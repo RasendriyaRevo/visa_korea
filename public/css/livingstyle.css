@@ -18,3 +18,21 @@
     margin-top: -20px;
     margin-bottom: 20px;
 }
+
+.more{
+    display: none;
+}
+
+a#myBtn1 ,a#myBtn2 ,a#myBtn3 ,a#myBtn4 ,a#myBtn5 ,
+a#myBtn6 ,a#myBtn7 ,a#myBtn8 ,a#myBtn9 ,a#myBtn10 ,
+a#myBtn11 ,a#myBtn12 ,a#myBtn13 ,a#myBtn14 ,a#myBtn15{
+    color:#6897e5;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a.myBtn:hover, a#myBtn2:hover ,a#myBtn3:hover ,a#myBtn4:hover ,a#myBtn5:hover ,
+a#myBtn6:hover ,a#myBtn7:hover ,a#myBtn8:hover ,a#myBtn9:hover ,a#myBtn10:hover ,
+a#myBtn11:hover ,a#myBtn12:hover ,a#myBtn13:hover ,a#myBtn14:hover ,a#myBtn15:hover{
+    color: #0056b3;
+}
