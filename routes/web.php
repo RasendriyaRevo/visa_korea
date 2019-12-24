@@ -30,3 +30,7 @@ Route::get('/contactus', function () {
 Route::get('/lik', function () {
     return view('living');
 });
+
+Route::get('/test', function () {
+    return view('test');
+});

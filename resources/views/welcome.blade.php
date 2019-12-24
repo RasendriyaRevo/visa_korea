@@ -7,68 +7,37 @@
 <div id="page" class="hfeed site">
 	<!-- Masthead ============================================= --> 
 		<!-- end #sticky_header -->
-		<div class="main-slider"> 
-			<div class="layer-slider">
-				<div class="slides show-display">
-					<div class="image-slider clearfix" title="Coming Soon New features" style="background-image:url('img/bg/bg1.png')">
-						<div class="container" > 
-							<article class="slider-content clearfix freesia-animation fadeInRight">
-								<h2 class="slider-title">
-									<a style="color:white" href="#" title="Coming Soon New features" rel="bookmark">VISA IN KOREA</a>
-								</h2>
-								<!-- .slider-title -->
-								<div class="slider-text">
-									<h2 style="color:white" >Provides full services of Korea Immigration and VISA <br>task assiting our clients around the world <br>with their Korea Immigration Needs</h2>
-								</div>
-								<!-- end .slider-text -->
-								<div class="slider-buttons">
-									<a title="Coming Soon New features" href="#" class="btn-default vivid">
-										Read More
-										<span>&#10093;</span>
-									</a>
-								</div>
-							</article>
-							<!-- end .slider-content --> 
-						</div>
-						<!-- end .container -->
-					</div>
-					<!-- end .image-slider -->
-				</div>
-				<!-- end .slides -->
-				<div class="slides hide-display">
-					<div class="image-slider clearfix" title="Design at you own style" style="background-image:url('https://demo.themefreesia.com/freesia-empire/wp-content/uploads/sites/6/2016/01/slider-image-1-1920x1080.jpg')">
-						<div class="container">
-							<article class="slider-content clearfix">
-								<h2 class="slider-title">
-									<a href="https://demo.themefreesia.com/freesia-empire/design-at-you-own-style/" title="Design at you own style" rel="bookmark">Design at you own style</a>
-								</h2>
-								<!-- .slider-title -->
-								<div class="slider-text">
-									<h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mattis ligula quis. Sed mattis ut ligula q </h3>
-								</div>
-								<!-- end .slider-text -->
-								<div class="slider-buttons">
-									<a title="Design at you own style" href="https://demo.themefreesia.com/freesia-empire/design-at-you-own-style/" class="btn-default vivid">
-										Read More
-										<span>&#10093;</span>
-									</a>
-								</div>
-							</article>
-							<!-- end .slider-content --> 
-						</div>
-						<!-- end .container -->
-					</div>
-					<!-- end .image-slider -->
-				</div>
-				<!-- end .slides -->
-			</div>	  
-			<!-- end .layer-slider -->
-			<a class="slider-prev" id="prev2" href="#">&#10092;</a> 
-			<a class="slider-next" id="next2" href="#">&#10093;</a>
-			<nav class="slider-button"> </nav>
-		<!-- end .slider-button -->
-		</div>
-		<!-- end .main-slider -->
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" style="background-image:url('img/bg/bg1-test.png');background-size:100% 100%">
+                    
+                    <article class="slider-content clearfix freesia-animation fadeInRight" style="margin-top:10%;margin-bottom:10%">
+                        <h2 class="slider-title">
+                            <a style="color:white" href="#" title="Coming Soon New features" rel="bookmark">VISA IN KOREA</a>
+                        </h2>
+                        <!-- .slider-title -->
+                        <div class="slider-text">
+                            <h2 style="color:white" >Provides full services of Korea Immigration and VISA <br>task assiting our clients around the world <br>with their Korea Immigration Needs</h2>
+                        </div>
+                        <!-- end .slider-text -->
+                        <div class="slider-buttons">
+                            <a title="Coming Soon New features" href="#" class="btn-default vivid">
+                                Read More
+                                <span>&#10093;</span>
+                            </a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
 	</header> 
 	<!-- end #masthead -->
 
