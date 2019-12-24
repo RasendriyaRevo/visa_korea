@@ -19,6 +19,9 @@ Route::get('/aboutus', function () {
     return view('aboutus');
 });
 
+Route::get('/about', function () {
+    return view('about');
+});
 
 Route::get('/contactus', function () {
     return view('contactus');

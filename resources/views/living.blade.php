@@ -11,7 +11,7 @@
     <div class="container clearfix">
         <div class="headnav">
             <div class="headnav-content">
-                Licing in Korea &nbsp; <img src="img/icon/next.png" style="width:5pt;height:5pt;margin-top:6pt"> &nbsp;&nbsp; 
+                LIVING IN KOREA &nbsp; <img src="img/icon/next.png" style="width:5pt;height:5pt;margin-top:6pt"> &nbsp;&nbsp; 
                 <a style="color:#909090" href="#housing">Housing</a> &nbsp;&nbsp; | &nbsp;&nbsp; 
                 <a style="color:#909090" href="#education">Education</a> &nbsp;&nbsp; | &nbsp;&nbsp; 
                 <a style="color:#909090" href="#driving">Driving</a> &nbsp;&nbsp; | &nbsp;&nbsp; 

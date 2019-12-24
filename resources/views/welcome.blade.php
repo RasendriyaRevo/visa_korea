@@ -1,6 +1,9 @@
 @extends('header')
 @section('title','VISAinKOREA')
 @section('content')
+@section('head')
+    <link href="css/home.css" rel="stylesheet" >
+@endsection
 <div id="page" class="hfeed site">
 	<!-- Masthead ============================================= --> 
 		<!-- end #sticky_header -->
